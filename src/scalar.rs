@@ -189,7 +189,7 @@ const S: u32 = 32;
 /// `GENERATOR = 7 mod q` is a generator
 /// of the q - 1 order multiplicative
 /// subgroup.
-const ROOT_OF_UNITY: Scalar = Scalar([
+pub const ROOT_OF_UNITY: Scalar = Scalar([
     0xb9b5_8d8c_5f0e_466a,
     0x5b1b_4c80_1819_d7ec,
     0x0af5_3ae3_52a3_1e64,

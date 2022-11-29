@@ -47,6 +47,7 @@ pub mod notes {
 mod scalar;
 
 pub use scalar::Scalar;
+pub use scalar::ROOT_OF_UNITY;
 
 #[cfg(feature = "groups")]
 mod fp;
